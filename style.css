@@ -11,30 +11,25 @@ body {
     margin: auto;
 }
 
-header {
-    background: #ebebeb;
-    padding: 35px;
-    text-align: center;
-    width: auto;
-}
-
-nav {
+header, nav {
     background: #ebebeb;
     text-align: center;
-    padding: 35px;
     width: auto;
+    padding: 20px;
 }
 
 article {
     color: #ebebeb;
     background: #777;
-    padding: 20px;
+    padding: 10px;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     color: #777;
     background: #ebebeb;
+    font-size: 20px;
+    font-weight: normal;
 }
 
 #article_header {
@@ -43,7 +38,7 @@ h1 {
     background: #777;
 }
 
-h2 {
+h3 {
     text-align: center;
     color: #777;
     background: #ebebeb;
@@ -62,17 +57,20 @@ section {
     width: 495px;
     background: #ebebeb;
     padding: 10px;
+    margin-top: 0;
 }
 
 aside {
     float: right;
-    width: 400px;
     background: #ebebeb;
-    height: 400px;
-    padding: 1px;
+    width: 380px;
+    height: 325px;
+    margin-right: 20px;
 }
 
 footer {
     clear: both;
     text-align: center;
+    background-color: #ebebeb;
+    padding: 5px;
 }
